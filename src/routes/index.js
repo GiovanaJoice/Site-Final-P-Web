@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 const home = require('../controllers/home')
-const lista = require('../controllers/lista')
+const resultados = require('../controllers/resultados')
 const ajuda = require('../controllers/ajuda')
 const cadastro = require('../controllers/cadastro')
 const categorias = require('../controllers/categorias')
@@ -13,7 +13,7 @@ const receita = require('../controllers/receita')
 
 
 router.get('/', home.home)
-router.get('/lista', lista.lista)
+router.get('/resultados', resultados.resultados)
 router.get('/ajuda', ajuda.ajuda)
 router.get('/cadastro', cadastro.cadastro)
 router.get('/categorias', categorias.categorias)
