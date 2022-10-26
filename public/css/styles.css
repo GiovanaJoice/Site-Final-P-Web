@@ -186,3 +186,30 @@ h1 {
     text-align: center;
     color: rgb(221, 100, 30);
 }
+
+.mainCadastro{
+    min-width: 80% !important;
+    border-color: #f5a93f 3px !important;
+    margin: auto !important;
+    width: 50% !important;
+    padding: 10px !important;
+    margin-bottom: 2% !important;
+}
+
+#inputEmail4, #inputPassword4, #inputAddress, #inputCity, #inputState, #inputZip, #inputUser, #inputNumber{
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.mainLogin{
+    min-width: 80% !important;
+    border-color: #f5a93f 3px !important;
+    margin: auto !important;
+    width: 50% !important;
+    padding: 10px !important;
+    margin-bottom: 2% !important;
+}
+
+#inputEmail4Login, #inputPassword4Login, #inputUserLogin, #inputNumberLogin{
+    
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
